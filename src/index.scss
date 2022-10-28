@@ -1,0 +1,122 @@
+$cor1: #525e75;
+$cor2: #78938a;
+$cor3: #92ba92;
+
+$white: #fff;
+
+
+$textShadow: 1px 1px 2px 2px rgba(0,0,0,0.1);
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+* { font-family: 'Montserrat', sans-serif }
+
+body{ background-color: $cor1 ;}
+
+
+
+.body{
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+
+}
+
+.linkback{ color: $white; margin-top: 3rem;}
+.linkProject{  display: inline-block; margin: 1rem 1rem 1rem 0; max-width: 250px;}
+
+.superTitle{ 
+    font-size: 1.4rem; 
+    color: $white; 
+    line-height: 1.6rem;
+    text-shadow: $textShadow;
+    max-width: 730px;
+    font-weight: lighter;
+    margin-top: 9rem;
+}
+
+.linkSocial{
+  color: #fff;
+  font-size: 1.4rem;
+  display: inline-block;
+  padding: 0 1rem 1rem 0;
+}
+
+.projects{ 
+  color: $white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+
+
+
+
+/////////////////////
+/// 
+.projectBody h1, .projectBody h2, .projectBody h3{ color: $white; margin: 1.5rem auto 0; padding: 0;}
+/// 
+p{ 
+  color: $white;
+  display: block;
+  max-width: 600px;
+  margin: 0 0 1.5rem;
+  line-height: 1.25rem;
+  font-size: 0.9rem;
+}
+/// 
+/// 
+.responsiveImg{ width: 100%; margin-bottom: 1rem;}
+/// 
+
+.bullet{
+  margin: 2rem 0 1rem;
+  display: inline-block;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 100%;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  padding: 10px 10px 0;
+  color: $white;
+  font-weight: bold;
+  font-size: 2rem;
+  box-sizing: border-box;
+}
+
+
+.videoBox{padding:75% 0 0 0;position:relative}
+.videoBk{position:absolute;top:0;left:0;width:100%;height:100%;}
+
+.responsiveImage{ width: 100%;}
+
+.center {text-align: center;}
+.invisionLink{
+  border-radius: 24px;
+  display: inline-block;
+  color: $white;
+  background-color: #f36;
+  padding: 15px 25px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 1rem auto;
+  box-shadow: $textShadow;
+}
