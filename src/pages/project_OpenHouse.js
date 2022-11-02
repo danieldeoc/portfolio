@@ -25,8 +25,7 @@ function Santander(){
                 <p>I acted as a UX Designer, designing prototypes for the project, appling user interviews and user tests.</p>
 
 
-                <Bullet value="1" />
-                <p>Santander Open House Preview:</p>
+                <h3>Santander Open House Preview:</h3>
                 <img src={Img} className="responsiveImage" />
                 <div className="center">
                     <a 

@@ -5,6 +5,8 @@ import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
 
 import PjBk from "../images/link-bk.png";
 import PjSt from "../images/link-st.png";
+import PjTt from "../images/link-tt.png";
+import PjBp from "../images/link-bp.png";
 
 function HomePage(){
     return(
@@ -40,6 +42,12 @@ function HomePage(){
             </Link>
             <Link to="/santander">
                 <img src={PjSt} className="linkProject" />
+            </Link>
+            <Link to="/totvs">
+                <img src={PjTt} className="linkProject" />
+            </Link>
+            <Link to="/businessportugal">
+                <img src={PjBp} className="linkProject" />
             </Link>
 
             <h2 className='projects'>Developer Projects</h2>
