@@ -4,6 +4,7 @@ import SuperTitle from "../components/superTitle";
 import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
 
 import PjBk from "../images/link-bk.png";
+import PjSt from "../images/link-st.png";
 
 function HomePage(){
     return(
@@ -33,10 +34,15 @@ function HomePage(){
             <i class="fa-regular fa-envelope"></i>
         </a>
         
-        <h2 className='projects'>Projects</h2>
+        <h2 className='projects'>UX Design Projects</h2>
             <Link to="/bankinter">
                 <img src={PjBk} className="linkProject" />
             </Link>
+            <Link to="/santander">
+                <img src={PjSt} className="linkProject" />
+            </Link>
+
+            <h2 className='projects'>Developer Projects</h2>
         </div>
     )
 }

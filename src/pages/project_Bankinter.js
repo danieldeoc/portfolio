@@ -2,7 +2,7 @@ import React from "react";
 import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
 import Bullet from "../components/bullets";
 
-import Img from "../images/0001-bankinter-mockup.jpg";
+import Img from "../images/0001-bankinter-mockup.png";
 import BkFlow from "../images/0001-bankinter-flow.jpg";
 import Bench from "../images/0001-bankinter-bench.jpg";
 
