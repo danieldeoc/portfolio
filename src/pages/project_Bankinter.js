@@ -15,20 +15,20 @@ function Bankinter(){
                     <i className="fa-solid fa-arrow-left linkback"></i>
                 </Link>
                 <h1>Bankinter</h1>
-                <p>Bankinter Digital OnBoarding was a project developed by NovaBase for Bankinter to allow bank customer to open a digital account with their phones on a video call.</p>
+                <p>Bankinter Digital OnBoarding was a project developed by NovaBase for Bankinter to allow bank customers to open a digital account with their phones on a video call.</p>
 
                 <h2>Project scope:</h2>
-                <p>Design a onboarding user experience for new customers.</p>
+                <p>Design an onboarding user experience for new customers.</p>
                 <p>Only mobile experience.</p>
                 <p>Only design thinking methodologies.</p>
                 <p>Only for new customers.</p>
-                <p>Team with 5 members: 2 UX Designers, UX Designer Mananger, Project mananger and an System analyst.</p>
+                <p>Team with 5 members: 2 UX Designers, UX Designer Manager, Project manager and a System analyst.</p>
 
                 <h3>My Role</h3>
-                <p>I acted as a UX Designer, developing the State of OnBoarding research, applying the current branch openning process research, presenting the results in the workshop week and designing the final workflow prototype using Bankinter guidelines.</p>
+                <p>I acted as a UX Designer, developing the State of OnBoarding research, applying the current branch opening process research, presenting the results in the workshop week and designing the final workflow prototype using Bankinter guidelines.</p>
 
                 <Bullet value="1" />
-                <p>The State of The OnBoarding research.</p>
+                <p>The State of OnBoarding research.</p>
                 <div className="center">
                 <iframe 
                         src="https://www.slideshare.net/slideshow/embed_code/key/eI9XZastcUtjdr" 
@@ -44,7 +44,7 @@ function Bankinter(){
                        
                 </div>
                 <Bullet value="2" />
-                <p>Map the current branch opening process.</p>
+                <p>Map the current account opening process in a fiscal branch as a hidden customer.</p>
                 <div className="center">
                     <a href={BkFlow}>
                         <img src={BkFlow} className="responsiveImg" />
@@ -52,7 +52,7 @@ function Bankinter(){
                 </div>
 
                 <Bullet value="3" />
-                <p>Benchmarket research: Map the main players opening process.</p>
+                <p>Benchmarket research: Map the main players account opening process.</p>
                 <div className="center">
                     <a href={Bench}>
                         <img src={Bench} className="responsiveImg" />

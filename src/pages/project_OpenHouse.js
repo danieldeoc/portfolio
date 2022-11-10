@@ -13,16 +13,16 @@ function Santander(){
                     <i className="fa-solid fa-arrow-left linkback"></i>
                 </Link>
                 <h1>Santander Open House</h1>
-                <p>Santander Open House was a project developed by NovaBase and Santander, with McKinsey and other IT consultings to develop an app that allows bank customer to apply to a online mortgage process.</p>
+                <p>Santander Open House was a project developed by NovaBase and Santander, with McKinsey and other IT consultings to develop an app that allows bank customers to apply to an online mortgage process.</p>
 
                 <h2>Project scope:</h2>
-                <p>The entire processo to buy a house</p>
-                <p>For customers and bank branchs</p>
+                <p>The entire process to buy a house online</p>
+                <p>For customers and bank branches</p>
                 <p>Only design thinking methodologies.</p>
                 <p>Team with 5 UX members and 30+ people.</p>
 
                 <h3>My Role</h3>
-                <p>I acted as a UX Designer, designing prototypes for the project, appling user interviews and user tests.</p>
+                <p>I acted as a UX Designer, designing prototypes for the project, applying user interviews and user tests.</p>
 
 
                 <h3>Santander Open House Preview:</h3>

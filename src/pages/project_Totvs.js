@@ -33,7 +33,7 @@ function Totvs(){
                     <i className="fa-solid fa-arrow-left linkback"></i>
                 </Link>
                 <h1>TOTVs Fiscal Triangulation</h1>
-                <p>TOTVs Fiscal Triangulation was a project developed by TOTVS Warehouse Manegement System to create the tax module for goods distribution amoung warehouses.</p>
+                <p>TOTVs Fiscal Triangulation was a project developed by TOTVS Warehouse Management System to create the tax module for goods distribution among warehouses.</p>
 
                 <h2>Project scope:</h2>
                 <p>The tax process for goods distribution between warehouses</p>
