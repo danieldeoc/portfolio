@@ -66,7 +66,11 @@ function Totvs(){
                 <img src={Img19} className="responsiveImage" /><br/><br/>
                 <img src={Img20} className="responsiveImage" /><br/><br/>
                 <img src={Img21} className="responsiveImage" /><br/><br/>
-                
+                <div className="goBackBox">
+                    <Link to="/" className="goRealBack" title="Go back">
+                        <i className="fa-solid fa-arrow-left"></i>
+                    </Link> 
+                </div>
             </div>      
         </>
     )

@@ -32,7 +32,7 @@ function BusinessPortugal(){
                 <Link to="/">
                     <i className="fa-solid fa-arrow-left linkback"></i>
                 </Link>
-                <h1>Victor's Barber Shop</h1>
+                <h1>Victor's Barber Shop market study</h1>
                 <p>Victor's Barber Shop was a market study developed for Business Portugal in order to obtain a better understanding of the business environment in Lisbon for Victor, an entrepreneur looking to open his barber in Lisbon.</p>
 
                 <h2>Project scope:</h2>
@@ -49,6 +49,13 @@ function BusinessPortugal(){
                 <br/><br/><br/>
                 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/njkD21tRfwj6Im" width="100%" height="456" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe> 
                 
+
+                <div className="goBackBox">
+                    <Link to="/" className="goRealBack" title="Go back">
+                        <i className="fa-solid fa-arrow-left"></i>
+                    </Link> 
+                </div>
+
             </div>      
         </>
     )

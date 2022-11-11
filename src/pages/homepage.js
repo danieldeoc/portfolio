@@ -7,13 +7,25 @@ import PjBk from "../images/link-bk.png";
 import PjSt from "../images/link-st.png";
 import PjTt from "../images/link-tt.png";
 import PjBp from "../images/link-bp.png";
+import PjGp from "../images/link-gp.png";
+import PjBvDev from "../images/link-bv-dev.png";
+
+import Me from "../images/me.png";
 
 function HomePage(){
     return(
         
         <div className='body'>
 
-        <SuperTitle value="Hi! I'm Daniel. I've been working as a Designer since 2007, and as a UX Designer since 2014. I'm also working as a Front-End developer, developing with HTML, CSS, Javascript ES6+, TypeScript, MySQL, PHP (wordpress) and ReactJS and Python. In the past years my main actuation was as a UX Designer and Researcher, applying design thinking methodologies for new and ongoing business." />
+        <img src={Me} alt="Daniel de Oliveira Carvalho photo" width="150" className="profilephoto" />
+        <SuperTitle value="Hi! I'm Daniel. I've been working as a Designer since 2007, and as a UX Designer since 2014." />
+
+        <h2 className="superTitleBody">
+        In the past years my main actuation was as a UX Designer and Researcher, applying design thinking methodologies for new and ongoing business.
+        </h2>
+        <h2 className="superTitleBody">
+        I'm also working as a Front-End developer, developing with HTML, CSS, Javascript ES6+, TypeScript, MySQL, PHP (wordpress) and ReactJS.
+        </h2>
         <a 
             className='linkSocial' 
             href='https://www.linkedin.com/in/daniel-de-o-carvalho/' 
@@ -50,7 +62,15 @@ function HomePage(){
                 <img src={PjBp} className="linkProject" />
             </Link>
 
+            <Link to="/gazetacapas">
+                <img src={PjGp} className="linkProject" />
+            </Link>
+            
+
             <h2 className='projects'>Developer Projects</h2>
+            <a href="https://blog.gazinatacado.com.br/" target="_blank">
+                <img src={PjBvDev} alt="Blog do Varejo - Desenvolvimento Wordpress" className="linkProject" />
+            </a>
         </div>
     )
 }

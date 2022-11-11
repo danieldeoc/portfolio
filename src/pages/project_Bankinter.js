@@ -67,7 +67,7 @@ function Bankinter(){
                 <div className="videoBox">
                     <iframe src="https://player.vimeo.com/video/363815768?h=5dfb581514&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen className="videoBk" title="V&amp;iacute;deo Bankinter"></iframe><script src="https://player.vimeo.com/api/player.js"></script>
                     </div>
-                <br/><br/><br/>
+                <br/><br/>
 
                 <Bullet value="6" />
                 <p>Design the created journeys and prototypes.</p>
@@ -80,6 +80,13 @@ function Bankinter(){
                         href="https://projects.invisionapp.com/share/MJ132HO6BAR3#/screens/470468030_01-0-1-CJ1_-_Login_App">
                             Check the full Prototype in Invision
                     </a>  
+                </div>
+
+
+                <div className="goBackBox">
+                    <Link to="/" className="goRealBack" title="Go back">
+                        <i className="fa-solid fa-arrow-left"></i>
+                    </Link> 
                 </div>
             </div>      
         </>
