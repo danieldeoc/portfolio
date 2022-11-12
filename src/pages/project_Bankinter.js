@@ -10,7 +10,7 @@ import Bench from "../images/0001-bankinter-bench.jpg";
 function Bankinter(){
     return(
         <>
-            <div className='body projectBody'>
+            <div id="bankinter" className='body projectBody'>
                 <Link to="/">
                     <i className="fa-solid fa-arrow-left linkback"></i>
                 </Link>

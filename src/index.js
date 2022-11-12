@@ -9,6 +9,7 @@ import Santander from './pages/project_OpenHouse';
 import Totvs from './pages/project_Totvs';
 import BusinessPortugal from './pages/project_BusinessPortugal';
 import GazetaDoPovoCapas from './pages/project_GazetaDoPovoCapas';
+import Gazin from './pages/project_Gazin';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
             <Route path='/totvs' element={<Totvs />} />
             <Route path='/businessportugal' element={<BusinessPortugal />} />
             <Route path='/gazetacapas' element={<GazetaDoPovoCapas />} />
+            <Route path='/gazin' element={<Gazin />} />
         </Routes>
   </HashRouter>
 
