@@ -9,6 +9,7 @@ import PjTt from "../images/link-tt.png";
 import PjBp from "../images/link-bp.png";
 import PjGp from "../images/link-gp.png";
 import PjGz from "../images/link-gz.png";
+import PjFp from "../images/link-fp.png";
 import PjBvDev from "../images/link-bv-dev.png";
 
 import Me from "../images/me.png";
@@ -117,7 +118,15 @@ function HomePage(){
                             <span>2015</span>
                         </Link>
                     </div>
-
+                    
+                    <div className="card">
+                        <Link to="/freelaproject" className="linkBox fpCard">
+                            <img src={PjFp} alt="Freela Project" />
+                            <span>UX / UI</span>
+                            <h3>Freela Project</h3>
+                            <span>2014</span>
+                        </Link>
+                    </div>
 
 
                 </div>

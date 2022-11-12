@@ -209,7 +209,7 @@ p{
 }
 
 .carrouselContainer{
-  width:  calc( (250px + 1rem) * 6);;
+  width:  calc( (250px + 1rem) * 7);;
 }
 .card{
   border-radius: 16px;
@@ -245,6 +245,11 @@ p{
   .linkBox.gpCard span {color: #666;}
   .linkBox.gpCard h3{ color: black;}
 
+  .linkBox.fpCard span {color: #2dcc70;}
+  .linkBox.fpCard h3{ color: #2d3f51;}
+
+  
+
 .linkBox.bkCard{ background-color: #ff7f00;}
 .linkBox.stCard{ background-color: #fe0000;}
 .linkBox.bpCard{ background-color: #005d2f;}
@@ -257,4 +262,6 @@ p{
 .introImg{ width: 100%; margin: 2rem 0;}
 .sitepreview{ max-width: 600px; margin: 0.5rem auto 2rem; display: block;
   box-shadow: $boxShadow;}
+
+.fpimgs img{ margin-bottom: 1rem;}
 
