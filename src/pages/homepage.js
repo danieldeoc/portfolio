@@ -108,7 +108,7 @@ function HomePage(){
                     <ProjectCard
                         link="/kardshare"
                         type="UX / UI / Front-end"
-                        client="Kardhsare"
+                        client="Kardshare"
                         project="App"
                         year="2013"
                         />

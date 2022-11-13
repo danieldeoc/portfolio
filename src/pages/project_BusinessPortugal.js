@@ -39,7 +39,7 @@ function BusinessPortugal(){
                 <p>Find the best place, with the best public to open a barbershop.</p>
 
                 <h3>My Role</h3>
-                <p>I acted as a Service Designer, helping Andres, Business Portugal Consultor, to develop the Business Plan. I also run the environmental business research bellow:</p>
+                <p>I acted as a Service Designer, helping Business Portugal Consultors to develop the Business Plan. I also run the environmental business research bellow:</p>
 
                 <br/>
                 <h3>Business Environmental Research:</h3>
