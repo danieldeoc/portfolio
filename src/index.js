@@ -13,6 +13,9 @@ import Gazin from './pages/project_Gazin';
 import FreelaPj from './pages/project_Freela';
 import Kardshare from './pages/project_Kardshare';
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('342184377');
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HashRouter>
