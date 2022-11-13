@@ -11,6 +11,7 @@ import BusinessPortugal from './pages/project_BusinessPortugal';
 import GazetaDoPovoCapas from './pages/project_GazetaDoPovoCapas';
 import Gazin from './pages/project_Gazin';
 import FreelaPj from './pages/project_Freela';
+import Kardshare from './pages/project_Kardshare';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,7 +25,9 @@ root.render(
             <Route path='/gazetacapas' element={<GazetaDoPovoCapas />} />
             <Route path='/gazin' element={<Gazin />} />
             <Route path='/freelaproject' element={<FreelaPj />} />
+            <Route path='/kardshare' element={<Kardshare />} />
 
+            
             
         </Routes>
   </HashRouter>

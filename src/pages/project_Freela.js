@@ -40,7 +40,7 @@ function FreelaPj(){
                 <BackHomeTop />
                 <h1>Freela Project</h1>                
                 <p>Freela Project was a study to develop an app for freelancers to manage their time and clients.</p>
-                <div className="txtCenter fpimgs">
+                <div className="imageDisplayer">
                 <img src={Img1} />
                 <img src={Img2} />
                 <img src={Img3} />

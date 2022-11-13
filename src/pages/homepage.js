@@ -100,9 +100,17 @@ function HomePage(){
                     <ProjectCard
                         link="/freelaproject"
                         type="UX / UI"
-                        client="Freelancers"
-                        project="Freelaproject"
+                        client="Freelaproject"
+                        project="Site & App"
                         year="2014"
+                        />
+                    
+                    <ProjectCard
+                        link="/kardshare"
+                        type="UX / UI / Front-end"
+                        client="Kardhsare"
+                        project="App"
+                        year="2013"
                         />
                         
                 </div>

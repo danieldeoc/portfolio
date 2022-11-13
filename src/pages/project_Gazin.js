@@ -17,9 +17,11 @@ function Gazin(){
                 
 
                 <h2>Original layout:</h2>
-                <a href={GazinImg} target="_blank">
-                    <img src={GazinImg} alt="Original Layout" className="sitepreview" />
-                </a>
+                <div className="imageDisplayer">
+                    <a href={GazinImg} target="_blank">
+                        <img src={GazinImg} alt="Original Layout" className="sitepreview" />
+                    </a>
+                </div>
                 <div className="txtCenter">
                     <a 
                         target="blank"

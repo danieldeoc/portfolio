@@ -73,7 +73,7 @@ p{
   width: 100%; 
   overflow-x: scroll; height: 400px;
   padding: $sp_xxl 0;}
-.cardsBox{ width:  calc( (250px + $sp_lg) * 7);}
+.cardsBox{ width:  calc( (250px + $sp_lg) * 8);}
 .cardProject{
   background-color: $white;
   border-radius: $sp_md;
@@ -181,8 +181,9 @@ p{
 }
 
 .imageDisplayer img{ 
-  width: 100%;
-  margin-bottom: $sp_xl;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto $sp_xl;
   box-shadow: $boxShadow;}
 
 
