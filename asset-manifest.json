@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2cbbaaab.css",
-    "main.js": "/portfolio/static/js/main.9cb1ab9d.js",
+    "main.css": "/portfolio/static/css/main.7e00351b.css",
+    "main.js": "/portfolio/static/js/main.fa1fda9a.js",
+    "static/media/ks.png": "/portfolio/static/media/ks.bf5a110cf06e7c974c7b.png",
     "static/media/gazinsite.jpg": "/portfolio/static/media/gazinsite.d98b9d1e5905784d472c.jpg",
     "static/media/0001-bankinter-bench.jpg": "/portfolio/static/media/0001-bankinter-bench.33797a6f5c35e68fd711.jpg",
     "static/media/0001-bankinter-flow.jpg": "/portfolio/static/media/0001-bankinter-flow.e72358b17340cf01fb09.jpg",
@@ -57,11 +58,11 @@
     "static/media/011.jpg": "/portfolio/static/media/011.b2b8f72bb3cb58d950e8.jpg",
     "static/media/bg.jpg": "/portfolio/static/media/bg.970f0f0228c076d3eb46.jpg",
     "index.html": "/portfolio/index.html",
-    "main.2cbbaaab.css.map": "/portfolio/static/css/main.2cbbaaab.css.map",
-    "main.9cb1ab9d.js.map": "/portfolio/static/js/main.9cb1ab9d.js.map"
+    "main.7e00351b.css.map": "/portfolio/static/css/main.7e00351b.css.map",
+    "main.fa1fda9a.js.map": "/portfolio/static/js/main.fa1fda9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cbbaaab.css",
-    "static/js/main.9cb1ab9d.js"
+    "static/css/main.7e00351b.css",
+    "static/js/main.fa1fda9a.js"
   ]
 }
