@@ -1,5 +1,7 @@
 import React from "react";
 import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
+import BackHomeTop from "../components/BackHomeTop.js";
+import BackHome from "../components/BackHome.js";
 import Bullet from "../components/bullets";
 
 import Img1 from "../images/totvs/001.jpg";
@@ -24,14 +26,12 @@ import Img19 from "../images/totvs/019.jpg";
 import Img20 from "../images/totvs/020.jpg";
 import Img21 from "../images/totvs/021.jpg";
 
-
 function BusinessPortugal(){
+    window.scrollTo(0,0);
     return(
         <>
-            <div className='body projectBody'>
-                <Link to="/">
-                    <i className="fa-solid fa-arrow-left linkback"></i>
-                </Link>
+            <div className='container projectPage'>
+                <BackHomeTop />
                 <h1>Victor's Barber Shop market study</h1>
                 <p>Victor's Barber Shop was a market study developed for Business Portugal in order to obtain a better understanding of the business environment in Lisbon for Victor, an entrepreneur looking to open his barber in Lisbon.</p>
 
@@ -48,14 +48,8 @@ function BusinessPortugal(){
 
                 <br/><br/><br/>
                 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/njkD21tRfwj6Im" width="100%" height="456" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe> 
-                
 
-                <div className="goBackBox">
-                    <Link to="/" className="goRealBack" title="Go back">
-                        <i className="fa-solid fa-arrow-left"></i>
-                    </Link> 
-                </div>
-
+                <BackHome />
             </div>      
         </>
     )

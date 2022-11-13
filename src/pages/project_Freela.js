@@ -1,5 +1,7 @@
 import React from "react";
 import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
+import BackHomeTop from "../components/BackHomeTop.js";
+import BackHome from "../components/BackHome.js";
 import Bullet from "../components/bullets";
 
 import Img1 from "../images/freelaproject/0001.jpg";
@@ -30,20 +32,12 @@ import Img25 from "../images/freelaproject/0025.jpg";
 import Img26 from "../images/freelaproject/0026.jpg";
 import Img27 from "../images/freelaproject/0027.jpg";
 
-
-
-
-
-
-
-function FreelaPj(){
-    
+function FreelaPj(){   
+    window.scrollTo(0,0); 
     return(
         <>
-            <div className='body projectBody'>
-                <Link to="/">
-                    <i className="fa-solid fa-arrow-left linkback"></i>
-                </Link>
+            <div className='container projectPage'>
+                <BackHomeTop />
                 <h1>Freela Project</h1>                
                 <p>Freela Project was a study to develop an app for freelancers to manage their time and clients.</p>
                 <div className="txtCenter fpimgs">
@@ -76,11 +70,7 @@ function FreelaPj(){
                 <img src={Img27} />
                 </div>
                 
-                <div className="goBackBox">
-                    <Link to="/" className="goRealBack" title="Go back">
-                        <i className="fa-solid fa-arrow-left"></i>
-                    </Link> 
-                </div>
+                <BackHome />
             </div>      
         </>
     )

@@ -1,17 +1,16 @@
 import React from "react";
 import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
 import Bullet from "../components/bullets";
-
+import BackHomeTop from "../components/BackHomeTop.js";
+import BackHome from "../components/BackHome.js";
 import Img from "../images/0002-santander-mockup.png";
 
-
 function Santander(){
+    window.scrollTo(0,0);
     return(
         <>
-            <div className='body projectBody'>
-                <Link to="/">
-                    <i className="fa-solid fa-arrow-left linkback"></i>
-                </Link>
+            <div className='container projectPage'>
+                <BackHomeTop />
                 <h1>Santander Open House</h1>
                 <p>Santander Open House was a project developed by NovaBase and Santander, with McKinsey and other IT consultings to develop an app that allows bank customers to apply to an online mortgage process.</p>
 
@@ -36,13 +35,7 @@ function Santander(){
                             Check the full Prototype in MarvelApp
                     </a>  
                 </div>
-
-
-                <div className="goBackBox">
-                    <Link to="/" className="goRealBack" title="Go back">
-                        <i className="fa-solid fa-arrow-left"></i>
-                    </Link> 
-                </div>
+                <BackHome />
             </div>      
         </>
     )

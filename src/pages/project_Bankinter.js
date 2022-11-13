@@ -1,6 +1,8 @@
 import React from "react";
 import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
 import Bullet from "../components/bullets";
+import BackHomeTop from "../components/BackHomeTop.js";
+import BackHome from "../components/BackHome.js";
 
 import Img from "../images/0001-bankinter-mockup.png";
 import BkFlow from "../images/0001-bankinter-flow.jpg";
@@ -10,10 +12,8 @@ import Bench from "../images/0001-bankinter-bench.jpg";
 function Bankinter(){
     return(
         <>
-            <div id="bankinter" className='body projectBody'>
-                <Link to="/">
-                    <i className="fa-solid fa-arrow-left linkback"></i>
-                </Link>
+            <div id="bankinter" className='container projectPage'>
+                <BackHomeTop />
                 <h1>Bankinter</h1>
                 <p>Bankinter Digital OnBoarding was a project developed by NovaBase for Bankinter to allow bank customers to open a digital account with their phones on a video call.</p>
 
@@ -83,11 +83,7 @@ function Bankinter(){
                 </div>
 
 
-                <div className="goBackBox">
-                    <Link to="/" className="goRealBack" title="Go back">
-                        <i className="fa-solid fa-arrow-left"></i>
-                    </Link> 
-                </div>
+                <BackHome />
             </div>      
         </>
     )

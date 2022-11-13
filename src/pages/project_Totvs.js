@@ -1,6 +1,7 @@
 import React from "react";
 import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
-import Bullet from "../components/bullets";
+import BackHomeTop from "../components/BackHomeTop.js";
+import BackHome from "../components/BackHome.js";
 
 import Img1 from "../images/totvs/001.jpg";
 import Img2 from "../images/totvs/002.jpg";
@@ -24,14 +25,12 @@ import Img19 from "../images/totvs/019.jpg";
 import Img20 from "../images/totvs/020.jpg";
 import Img21 from "../images/totvs/021.jpg";
 
-
 function Totvs(){
+    window.scrollTo(0,0);
     return(
         <>
-            <div className='body projectBody'>
-                <Link to="/">
-                    <i className="fa-solid fa-arrow-left linkback"></i>
-                </Link>
+            <div className='container projectPage'>
+                <BackHomeTop />
                 <h1>TOTVs Fiscal Triangulation</h1>
                 <p>TOTVs Fiscal Triangulation was a project developed by TOTVS Warehouse Management System to create the tax module for goods distribution among warehouses.</p>
 
@@ -45,32 +44,30 @@ function Totvs(){
                 <p>I acted as a UX Designer, running the research process with the PO, and running the ideation online workshop with the team, to design the Fiscal Triangulation flow. Then, the entire flow was designed in a high fidelity prototype using TOTVs Design Guidelines.</p>
 
                 <p>TOTVs Fiscal Triangulation Preview:</p>
-                <img src={Img1} className="responsiveImage" /><br/><br/>
-                <img src={Img2} className="responsiveImage" /><br/><br/>
-                <img src={Img3} className="responsiveImage" /><br/><br/>
-                <img src={Img4} className="responsiveImage" /><br/><br/>
-                <img src={Img5} className="responsiveImage" /><br/><br/>
-                <img src={Img6} className="responsiveImage" /><br/><br/>
-                <img src={Img7} className="responsiveImage" /><br/><br/>
-                <img src={Img8} className="responsiveImage" /><br/><br/>
-                <img src={Img9} className="responsiveImage" /><br/><br/>
-                <img src={Img10} className="responsiveImage" /><br/><br/>
-                <img src={Img11} className="responsiveImage" /><br/><br/>
-                <img src={Img12} className="responsiveImage" /><br/><br/>
-                <img src={Img13} className="responsiveImage" /><br/><br/>
-                <img src={Img14} className="responsiveImage" /><br/><br/>
-                <img src={Img15} className="responsiveImage" /><br/><br/>
-                <img src={Img16} className="responsiveImage" /><br/><br/>
-                <img src={Img17} className="responsiveImage" /><br/><br/>
-                <img src={Img18} className="responsiveImage" /><br/><br/>
-                <img src={Img19} className="responsiveImage" /><br/><br/>
-                <img src={Img20} className="responsiveImage" /><br/><br/>
-                <img src={Img21} className="responsiveImage" /><br/><br/>
-                <div className="goBackBox">
-                    <Link to="/" className="goRealBack" title="Go back">
-                        <i className="fa-solid fa-arrow-left"></i>
-                    </Link> 
+                <div className="imageDisplayer">
+                    <img src={Img1} />
+                    <img src={Img2} />
+                    <img src={Img3} />
+                    <img src={Img4} />
+                    <img src={Img5} />
+                    <img src={Img6} />
+                    <img src={Img7} />
+                    <img src={Img8} />
+                    <img src={Img9} />
+                    <img src={Img10} />
+                    <img src={Img11} />
+                    <img src={Img12} />
+                    <img src={Img13} />
+                    <img src={Img14} />
+                    <img src={Img15} />
+                    <img src={Img16} />
+                    <img src={Img17} />
+                    <img src={Img18} />
+                    <img src={Img19} />
+                    <img src={Img20} />
+                    <img src={Img21} />
                 </div>
+                <BackHome />
             </div>      
         </>
     )
