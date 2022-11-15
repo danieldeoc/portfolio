@@ -12,6 +12,7 @@ import GazetaDoPovoCapas from './pages/project_GazetaDoPovoCapas';
 import Gazin from './pages/project_Gazin';
 import FreelaPj from './pages/project_Freela';
 import Kardshare from './pages/project_Kardshare';
+import NearPhotos from './pages/project_Nearphotos';
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-8DDE9ZBW1Q');
@@ -29,6 +30,7 @@ root.render(
             <Route path='/gazin' element={<Gazin />} />
             <Route path='/freelaproject' element={<FreelaPj />} />
             <Route path='/kardshare' element={<Kardshare />} />
+            <Route path='/nearphotos' element={<NearPhotos />} />
 
             
             

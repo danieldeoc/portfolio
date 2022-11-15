@@ -20,28 +20,28 @@ function HomePage(){
                         className='linkSocial' 
                         href='https://www.linkedin.com/in/daniel-de-o-carvalho/' 
                         target="_blank" 
-                        title='Meu perfil no LinkedIn'>
+                        title='My LinkedIn profile'>
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
                     <a 
                         className='linkSocial' 
                         href='https://github.com/danieldeoc' 
                         target="_blank" 
-                        title='Meu perfil no GitHub'>
+                        title='My GitHub profil'>
                         <i className="fa-brands fa-github"></i>
                     </a>
                     <a 
                         className='linkSocial' 
                         href='mailto:danieldeoc@gmail.com' 
                         target="_blank" 
-                        title='Envia-me um e-mail'>
+                        title='Send me an e-mail'>
                         <i className="fa-regular fa-envelope"></i>
                     </a>
                     <a 
                         className='linkSocial' 
                         href='https://api.whatsapp.com/send?phone=351915836652&text=Hi%2C%20Daniel.%20I%20saw%20your%20portfolio%20and%20I%20would%20like%20to%20talk%20to%20you!'
                         target="_blank" 
-                        title='Manda-me um whats!'>
+                        title='Send me an message!'>
                         <i className="fa-brands fa-whatsapp"></i>
                     </a>
                 </div>
@@ -52,6 +52,14 @@ function HomePage(){
 
                     <div className="cardsBox" id="cardLine">
 
+                    <ProjectCard
+                            link="/nearphotos"
+                            type="UX / UI"
+                            client="Nearphotos"
+                            project="Android App"
+                            year="2021"
+                            />
+                        
                         <ProjectCard
                             link="/totvs"
                             type="UX / UI"
