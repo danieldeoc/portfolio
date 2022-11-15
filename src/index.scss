@@ -69,11 +69,20 @@ p{
 
 ///////////////////////
 /// Cards home
+.homeContainer{ width: 100%; overflow-x: hidden;}
 .cardsContainer{ 
   width: 100%; 
-  overflow-x: scroll; height: 400px;
-  padding: $sp_xxl 0;}
-.cardsBox{ width:  calc( (250px + $sp_lg) * 8);}
+  margin: 0 auto;
+  overflow-x: scroll;
+  padding: $sp_xxl;
+  box-sizing: border-box;
+}
+
+.cardsBox{
+  width:  calc( (250px + $sp_lg) * 8);
+
+  
+ }
 .cardProject{
   background-color: $white;
   border-radius: $sp_md;

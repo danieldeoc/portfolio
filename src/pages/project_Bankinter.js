@@ -10,6 +10,7 @@ import Bench from "../images/0001-bankinter-bench.jpg";
 
 
 function Bankinter(){
+    window.scrollTo(0,0);
     return(
         <>
             <div id="bankinter" className='container projectPage'>
